@@ -1,0 +1,14 @@
+input {
+    outline: none;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    background-color: #eff0f2;
+}
+div#__next > div:nth-child(2),
+div#__next > div > div:nth-child(2) {
+    height: 100vh;
+}
